@@ -4,12 +4,11 @@ import { Link, IndexLink } from 'react-router';
 const App = (props) => {
   return (
     <div>
-      <IndexLink to="/">Home</IndexLink>
-      {' | '}
-      <Link to="/fuel-savings">Demo App</Link>
-      {' | '}
-      <Link to="/about">About</Link>
-      <br/>
+      <header>
+        <IndexLink to="/">Home</IndexLink>
+        <Link to="/wedding-details">Wedding Details</Link>
+        <Link to="/media">Photos and Videos</Link>
+      </header>
       {props.children}
     </div>
   );
