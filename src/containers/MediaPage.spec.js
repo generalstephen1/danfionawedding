@@ -1,18 +1,13 @@
 import React from 'react';
 import {shallow} from 'enzyme';
 import {expect} from 'chai';
-import {FuelSavingsPage} from './FuelSavingsPage';
-import FuelSavingsForm from '../components/FuelSavingsForm';
+import {MediaPage} from './MediaPage';
+import FlickrGallery from '../components/FlickrGallery';
 
-describe('<FuelSavingsPage />', () => {
-  it('should contain <FuelSavingsForm />', () => {
-    const actions = {
-      saveFuelSavings: () => { },
-      calculateFuelSavings: () => { }
-    };
-    const fuelSavings = {};
-    const wrapper = shallow(<FuelSavingsPage actions={actions} fuelSavings={fuelSavings}/>);
+describe('<MediaPage />', () => {
+  it('should contain <FlickrGallery />', () => {
+    const wrapper = shallow(<MediaPage />);
 
-    expect(wrapper.find(FuelSavingsForm)).to.be.length(1);
+    expect(wrapper.find(FlickrGallery)).to.be.length(1);
   });
 });
