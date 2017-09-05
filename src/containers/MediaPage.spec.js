@@ -2,12 +2,12 @@ import React from 'react';
 import {shallow} from 'enzyme';
 import {expect} from 'chai';
 import {MediaPage} from './MediaPage';
-import FlickrGallery from '../components/FlickrGallery';
+import Gallery from '../components/Gallery';
 
 describe('<MediaPage />', () => {
-  it('should contain <FlickrGallery />', () => {
+  it('should contain <Gallery />', () => {
     const wrapper = shallow(<MediaPage />);
 
-    expect(wrapper.find(FlickrGallery)).to.be.length(1);
+    expect(wrapper.find(Gallery)).to.be.length(1);
   });
 });
