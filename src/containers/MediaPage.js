@@ -3,10 +3,14 @@ import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
 import * as actions from '../actions/fuelSavingsActions';
 import Gallery from '../components/Gallery';
+import VideoGallery from '../components/VideoGallery';
 
 export const MediaPage = (props) => {
   return (
-    <Gallery />
+    <div>
+      <Gallery />
+      <VideoGallery />
+    </div>
   );
 };
 
