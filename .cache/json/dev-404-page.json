@@ -5,17 +5,17 @@
             "edges": [
                 {
                     "node": {
-                        "path": "/a/"
+                        "path": "/Contact/"
                     }
                 },
                 {
                     "node": {
-                        "path": "/b/"
+                        "path": "/Media/"
                     }
                 },
                 {
                     "node": {
-                        "path": "/c/"
+                        "path": "/Venue/"
                     }
                 },
                 {

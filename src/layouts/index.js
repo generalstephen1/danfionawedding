@@ -1,48 +1,25 @@
 import React from "react"
 import PropTypes from "prop-types"
 import Link from "gatsby-link"
+// import { ConnectedCounter } from "../containers/Counter"
 import { connect } from "react-redux"
 
 
 import './index.css'
 
 const Header = () => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          Gatsby
+  <div className="header">
+    <div className="header__title-container">
+      <h1>
+        <Link to="/">
+          Dan And Fiona
         </Link>
       </h1>
     </div>
-    <ConnectedCounter />
     <ul>
-        <li>
-          <Link to="/a/">a</Link>
-        </li>
-        <li>
-          <Link to="/b/">b</Link>
-        </li>
-        <li>
-          <Link to="/c/">c</Link>
-        </li>
+      <li> <Link to="/Venue/">Venue</Link> </li>
+      <li> <Link to="/Media/">Media</Link> </li>
+      <li> <Link to="/Contact/">Contact & RSVP</Link> </li>
     </ul>
   </div>
 )
@@ -51,14 +28,8 @@ const Header = () => (
 const TemplateWrapper = ({ children }) => (
   <div>
     <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
+    <Counter />
+    <div className='content'>
       {children()}
     </div>
   </div>
@@ -91,32 +62,5 @@ const mapDispatchToProps = dispatch => {
 }
 
 const ConnectedCounter = connect(mapStateToProps, mapDispatchToProps)(Counter)
-
-// class DefaultLayout extends React.Component {
-//   render() {
-//     return (
-//       <div>
-//         <Link to="/">
-//           <h3>Redux example</h3>
-//         </Link>
-//         <ConnectedCounter />
-//         <ul>
-//           <li>
-//             <Link to="/a/">a</Link>
-//           </li>
-//           <li>
-//             <Link to="/b/">b</Link>
-//           </li>
-//           <li>
-//             <Link to="/c/">c</Link>
-//           </li>
-//         </ul>
-//         {this.props.children()}
-//       </div>
-//     )
-//   }
-// }
-
-// export default DefaultLayout
 
 

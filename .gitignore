@@ -41,3 +41,5 @@ dist
 
 # Secret Keys etc
 .auth.json
+
+.cache

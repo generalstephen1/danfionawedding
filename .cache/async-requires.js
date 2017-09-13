@@ -3,9 +3,9 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/stephen.utting/code/personal/danfionawedding/.cache/dev-404-page.js"),
-  "component---src-pages-a-js": require("gatsby-module-loader?name=component---src-pages-a-js!/Users/stephen.utting/code/personal/danfionawedding/src/pages/a.js"),
-  "component---src-pages-b-js": require("gatsby-module-loader?name=component---src-pages-b-js!/Users/stephen.utting/code/personal/danfionawedding/src/pages/b.js"),
-  "component---src-pages-c-js": require("gatsby-module-loader?name=component---src-pages-c-js!/Users/stephen.utting/code/personal/danfionawedding/src/pages/c.js"),
+  "component---src-pages-contact-js": require("gatsby-module-loader?name=component---src-pages-contact-js!/Users/stephen.utting/code/personal/danfionawedding/src/pages/Contact.js"),
+  "component---src-pages-media-js": require("gatsby-module-loader?name=component---src-pages-media-js!/Users/stephen.utting/code/personal/danfionawedding/src/pages/Media.js"),
+  "component---src-pages-venue-js": require("gatsby-module-loader?name=component---src-pages-venue-js!/Users/stephen.utting/code/personal/danfionawedding/src/pages/Venue.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/stephen.utting/code/personal/danfionawedding/src/pages/index.js")
 }
 
@@ -13,11 +13,11 @@ exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/layout-index.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/dev-404-page.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/layout-index.json"),
-  "a.json": require("gatsby-module-loader?name=path---a!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/a.json"),
+  "contact.json": require("gatsby-module-loader?name=path---contact!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/contact.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/layout-index.json"),
-  "b.json": require("gatsby-module-loader?name=path---b!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/b.json"),
+  "media.json": require("gatsby-module-loader?name=path---media!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/media.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/layout-index.json"),
-  "c.json": require("gatsby-module-loader?name=path---c!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/c.json"),
+  "venue.json": require("gatsby-module-loader?name=path---venue!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/venue.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/layout-index.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/stephen.utting/code/personal/danfionawedding/.cache/json/index.json")
 }
