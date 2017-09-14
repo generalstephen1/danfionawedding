@@ -1,5 +1,7 @@
+@import "_variables";
+
 .header {
-    background: lightgoldenrodyellow;
+    background: $header-bg;
     margin-bottom: 1.45rem;
     padding: 0;
     margin: 0;
@@ -14,7 +16,7 @@
         padding: 1.45rem 1.0875rem;
 
         h1 {
-            color: 'white';
+            color: $title-colour;
             text-decoration: none;
             display: inline-block;
         }
@@ -22,7 +24,7 @@
 
     &__nav {
         float: right;
-        margin: 0;
+        margin: 10px 0;
 
         &-item {
             list-style: none;
@@ -32,5 +34,5 @@
     }
 }
 .header__nav-item + .header__nav-item {
-    border-right: 1px solid red;
+    border-right: 1px solid $nav-dividers;
 }
