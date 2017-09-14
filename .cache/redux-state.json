@@ -272,7 +272,7 @@
       "resolve": "/Users/stephen.utting/code/personal/danfionawedding",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "346af5d5e13e3ca41cc3eeb8ea1f2997",
+      "version": "acda822fdfd598fae8a69ca1dfe18f8d",
       "pluginOptions": {
         "plugins": []
       },
@@ -329,7 +329,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "4ba879236983243d2787eedf6f82c7b4",
+        "contentDigest": "ac380e3893e0649e222a38efb7bfbce4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -340,12 +340,12 @@
       },
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-09-14T11:47:33.763Z",
+      "buildTime": "2017-09-14T16:19:01.790Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "9e281b0c21b1ba9416e2002f93d78cd2",
+        "contentDigest": "a7e112dd8c767f9b48d12e9bc8e52690",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -357,7 +357,7 @@
       "layout": "index",
       "jsonName": "contact.json",
       "internalComponentName": "ComponentContact",
-      "updatedAt": 1505389656612,
+      "updatedAt": 1505405943320,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -367,7 +367,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5a7353f9ffc69e9ea2feaeb66f6d5a42",
+        "contentDigest": "411bc3f4e96adefb3442615c7fce0be3",
         "owner": "internal-data-bridge"
       }
     },
@@ -378,7 +378,7 @@
       "layout": "index",
       "jsonName": "media.json",
       "internalComponentName": "ComponentMedia",
-      "updatedAt": 1505389656612,
+      "updatedAt": 1505405943322,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -388,7 +388,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "114f308bbecdacf1c710ec3f26232905",
+        "contentDigest": "bf6beb782ba0bc21b84e8208cad5ebb8",
         "owner": "internal-data-bridge"
       }
     },
@@ -399,7 +399,7 @@
       "layout": "index",
       "jsonName": "venue.json",
       "internalComponentName": "ComponentVenue",
-      "updatedAt": 1505389656614,
+      "updatedAt": 1505405943323,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -409,7 +409,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "68f096cec79ae264f6e1b22c30b6688a",
+        "contentDigest": "93fff913535a1b240e706ad799467688",
         "owner": "internal-data-bridge"
       }
     },
@@ -420,7 +420,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1505389656614,
+      "updatedAt": 1505405943324,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -430,21 +430,17 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5fd3ae7eff736e29e1b158f8db095814",
+        "contentDigest": "a5ad11e8a8cfe01ec524e20990401a99",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "1862a28162e04d50b45f9ba98e9b2d8b"
+    "PLUGINS_HASH": "32e09dfa5b47427d93a22b659ceb4ae9"
   },
   "componentDataDependencies": {
     "nodes": {},
-    "connections": {
-      "SitePage": [
-        "/dev-404-page/"
-      ]
-    }
+    "connections": {}
   }
 }

@@ -5,6 +5,7 @@ import Header from "../components/Header"
 import { connect } from "react-redux"
 
 import '../style/base.scss'
+import '../style/header.scss'
 
 const TemplateWrapper = ({ children }) => (
   <div>

@@ -4,7 +4,7 @@ import { connect } from "react-redux"
 
 const Counter = ({ count, increment }) => (
   <div className="counter">
-    <p>Count: {count}</p>
+    <p>Current Count: {count}</p>
     <button onClick={increment}>Increment</button>
   </div>
 )

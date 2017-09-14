@@ -3,6 +3,6 @@ module.exports = {
     title: `Dan and Fiona`,
   },
   plugins: [
-    `gatsby-plugin-sass`
+    `gatsby-plugin-sass`,
   ]
 }
