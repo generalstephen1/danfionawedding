@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "component": "/Users/stephen.utting/code/personal/danfionawedding/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1505408047712,
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/stephen.utting/code/personal/danfionawedding/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a99176a77e703d90d9afa12c5fda6807",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -356,16 +346,14 @@
       "siteMetadata": {
         "title": "Dan and Fiona"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2017-09-14T16:54:06.075Z",
+      "buildTime": "2017-09-14T17:10:48.323Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "301966b42c57964b11ea5d5d54469c51",
+        "contentDigest": "c8d28a69deda4b203b4e00876894a468",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -377,7 +365,7 @@
       "layout": "index",
       "jsonName": "contact.json",
       "internalComponentName": "ComponentContact",
-      "updatedAt": 1505408047719,
+      "updatedAt": 1505409049777,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -387,28 +375,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "50364865b88b93a2c2e034c3527014f1",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /Venue/": {
-      "path": "/Venue/",
-      "component": "/Users/stephen.utting/code/personal/danfionawedding/src/pages/Venue.js",
-      "componentChunkName": "component---src-pages-venue-js",
-      "layout": "index",
-      "jsonName": "venue.json",
-      "internalComponentName": "ComponentVenue",
-      "updatedAt": 1505408047719,
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/stephen.utting/code/personal/danfionawedding/src/pages/Venue.js",
-      "id": "SitePage /Venue/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "600bc6b320dd4cdfadb3faac051dc6f6",
+        "contentDigest": "d71c555d20bd4a12c409a83c9fef9ce3",
         "owner": "internal-data-bridge"
       }
     },
@@ -419,7 +386,7 @@
       "layout": "index",
       "jsonName": "media.json",
       "internalComponentName": "ComponentMedia",
-      "updatedAt": 1505408047720,
+      "updatedAt": 1505409049778,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -429,7 +396,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "46133fbf57e08c5da8a32bbe4c52ee47",
+        "contentDigest": "7da16a62c61ef241969f4cf894cfc05e",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /Venue/": {
+      "path": "/Venue/",
+      "component": "/Users/stephen.utting/code/personal/danfionawedding/src/pages/Venue.js",
+      "componentChunkName": "component---src-pages-venue-js",
+      "layout": "index",
+      "jsonName": "venue.json",
+      "internalComponentName": "ComponentVenue",
+      "updatedAt": 1505409049779,
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/stephen.utting/code/personal/danfionawedding/src/pages/Venue.js",
+      "id": "SitePage /Venue/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "01abe39f93810e5346fb35a354f9605f",
         "owner": "internal-data-bridge"
       }
     },
@@ -440,7 +428,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1505408047722,
+      "updatedAt": 1505409049780,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -450,7 +438,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ef2317c7c92fd637cf5a66d78b493f1b",
+        "contentDigest": "f8fdc26ec678d0f1d8484145586b3694",
         "owner": "internal-data-bridge"
       }
     }
