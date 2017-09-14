@@ -1,6 +1,15 @@
 import React, { Component } from "react"
 import * as PropTypes from "prop-types"
 
+let stylesStr
+if (process.env.NODE_ENV === `production`) {
+  try {
+    stylesStr = require(`!raw-loader!../public/styles.css`)
+  } catch (e) {
+    console.log(e)
+  }
+}
+
 const propTypes = {
   headComponents: PropTypes.node.isRequired,
   body: PropTypes.node.isRequired,
@@ -9,6 +18,15 @@ const propTypes = {
 
 class Html extends Component {
   render() {
+    let css
+    if (process.env.NODE_ENV === `production`) {
+      css = (
+        <style
+          id="gatsby-inlined-css"
+          dangerouslySetInnerHTML={{ __html: stylesStr }}
+        />
+      )
+    }
     return (
       <html op="news" lang="en">
         <head>
@@ -20,6 +38,7 @@ class Html extends Component {
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Dan and Fiona</title>
           <link href="https://fonts.googleapis.com/css?family=Roboto|Slabo+27px" rel="stylesheet"/>
+          {css}
         </head>
 
         <body>

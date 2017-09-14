@@ -7,12 +7,14 @@
   "dependencies": {
     "gatsby": "latest",
     "gatsby-link": "latest",
-    "gatsby-plugin-sass": "^1.0.12",
+    "gatsby-plugin-sass": "latest",
     "lodash": "^4.16.4",
     "react-redux": "5.0.5",
     "react-router-redux": "4.0.8",
     "redux": "3.6.0",
-    "slash": "^1.0.0"
+    "slash": "^1.0.0",
+    "tachyons-sass": "^4.7.1",
+    "typography": "^0.15.10"
   },
   "keywords": [
     "gatsby"
@@ -21,7 +23,7 @@
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build && rsync -av --delete public/ docs/ && rm -rf public/",
+    "build": "gatsby build && rm -rf docs/ && mv public/ docs",
     "serve": "gatsby serve"
   }
 }
