@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { connect } from "react-redux"
 
 const Counter = ({ count, increment }) => (
-  <div>
+  <div className="counter">
     <p>Count: {count}</p>
     <button onClick={increment}>Increment</button>
   </div>

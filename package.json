@@ -1,12 +1,13 @@
 {
-  "name": "gatsby-example-redux",
+  "name": "danfionawedding",
   "private": true,
-  "description": "Gatsby example site that shows use of redux.",
+  "description": "Wedding website for Dan and Fiona",
   "version": "1.0.0",
-  "author": "Scotty Eckenthal <scott.eckenthal@gmail.com>",
+  "author": "Stephen Utting <steveo@stephenutting.com>",
   "dependencies": {
     "gatsby": "latest",
     "gatsby-link": "latest",
+    "gatsby-plugin-sass": "^1.0.12",
     "lodash": "^4.16.4",
     "react-redux": "5.0.5",
     "react-router-redux": "4.0.8",

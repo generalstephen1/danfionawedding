@@ -1,0 +1,36 @@
+.header {
+    background: lightgoldenrodyellow;
+    margin-bottom: 1.45rem;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+
+    &__title-container {
+        margin: 0 auto;
+        max-width: 960px;
+        padding: 1.45rem 1.0875rem;
+
+        h1 {
+            color: 'white';
+            text-decoration: none;
+            display: inline-block;
+        }
+    }
+
+    &__nav {
+        float: right;
+        margin: 0;
+
+        &-item {
+            list-style: none;
+            float: right;
+            padding: 20px;
+        }
+    }
+}
+.header__nav-item + .header__nav-item {
+    border-right: 1px solid red;
+}

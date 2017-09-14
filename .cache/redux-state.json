@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "component": "/Users/stephen.utting/code/personal/danfionawedding/.cache/dev-404-page.js",
       "path": "/dev-404-page/",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
-      "updatedAt": 1505305968329,
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/stephen.utting/code/personal/danfionawedding/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "549736af37e272f74f73aae9830c51a7",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -209,24 +199,93 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-sass": {
+      "resolve": "/Users/stephen.utting/code/personal/danfionawedding/node_modules/gatsby-plugin-sass",
+      "id": "Plugin gatsby-plugin-sass",
+      "name": "gatsby-plugin-sass",
+      "version": "1.0.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "pluginFilepath": "/Users/stephen.utting/code/personal/danfionawedding/node_modules/gatsby-plugin-sass",
+      "packageJson": {
+        "name": "gatsby-plugin-sass",
+        "description": "Gatsby plugin to handle scss/sass files",
+        "version": "1.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "sass",
+          "scss"
+        ],
+        "author": "Daniel Farrell <daniel@mobelux.com>",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "extract-text-webpack-plugin",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "gatsby-1-config-css-modules",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.5.2"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "webpack",
+            "version": "^1.13.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "7eae2c7d68de86300053bbd663398430",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/stephen.utting/code/personal/danfionawedding",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "6b971db0d0eff3f18a3383c9d4a48bf1",
+      "version": "346af5d5e13e3ca41cc3eeb8ea1f2997",
       "pluginOptions": {
         "plugins": []
       },
       "pluginFilepath": "/Users/stephen.utting/code/personal/danfionawedding",
       "packageJson": {
-        "name": "gatsby-example-redux",
-        "description": "Gatsby example site that shows use of redux.",
+        "name": "danfionawedding",
+        "description": "Wedding website for Dan and Fiona",
         "version": "1.0.0",
         "main": "n/a",
         "keywords": [
           "gatsby"
         ],
-        "author": "Scotty Eckenthal <scott.eckenthal@gmail.com>",
+        "author": "Stephen Utting <steveo@stephenutting.com>",
         "license": "MIT",
         "dependencies": [
           {
@@ -236,6 +295,10 @@
           {
             "name": "gatsby-link",
             "version": "latest"
+          },
+          {
+            "name": "gatsby-plugin-sass",
+            "version": "^1.0.12"
           },
           {
             "name": "lodash",
@@ -266,7 +329,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "75070017d7a5f6c075f173f9b171d6ef",
+        "contentDigest": "4ba879236983243d2787eedf6f82c7b4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -275,14 +338,14 @@
       "siteMetadata": {
         "title": "Dan and Fiona"
       },
-      "port": "8000",
-      "host": "localhost",
-      "buildTime": "2017-09-13T12:30:24.992Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2017-09-14T11:47:33.763Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c27ced8f3bc549f06f9d881bea63b186",
+        "contentDigest": "9e281b0c21b1ba9416e2002f93d78cd2",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -294,7 +357,7 @@
       "layout": "index",
       "jsonName": "contact.json",
       "internalComponentName": "ComponentContact",
-      "updatedAt": 1505305827589,
+      "updatedAt": 1505389656612,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -304,7 +367,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d19a2a4cc5afeeb1e1c636cb3c02ef18",
+        "contentDigest": "5a7353f9ffc69e9ea2feaeb66f6d5a42",
         "owner": "internal-data-bridge"
       }
     },
@@ -315,7 +378,7 @@
       "layout": "index",
       "jsonName": "media.json",
       "internalComponentName": "ComponentMedia",
-      "updatedAt": 1505305827589,
+      "updatedAt": 1505389656612,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -325,7 +388,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "eea9e1c81f507eff0b2ea4121f88a00b",
+        "contentDigest": "114f308bbecdacf1c710ec3f26232905",
         "owner": "internal-data-bridge"
       }
     },
@@ -336,7 +399,7 @@
       "layout": "index",
       "jsonName": "venue.json",
       "internalComponentName": "ComponentVenue",
-      "updatedAt": 1505305827592,
+      "updatedAt": 1505389656614,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -346,7 +409,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "bb9e71cbd093777d92606bcf3a406d7b",
+        "contentDigest": "68f096cec79ae264f6e1b22c30b6688a",
         "owner": "internal-data-bridge"
       }
     },
@@ -357,7 +420,7 @@
       "layout": "index",
       "jsonName": "index.json",
       "internalComponentName": "ComponentIndex",
-      "updatedAt": 1505305827592,
+      "updatedAt": 1505389656614,
       "context": {},
       "pluginCreator___NODE": "Plugin component-page-creator",
       "pluginCreatorId": "Plugin component-page-creator",
@@ -367,14 +430,14 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "71a7319975005a003f26c5c4368d46f1",
+        "contentDigest": "5fd3ae7eff736e29e1b158f8db095814",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a2247595ef2fe8ee563258a4f8ce79ee"
+    "PLUGINS_HASH": "1862a28162e04d50b45f9ba98e9b2d8b"
   },
   "componentDataDependencies": {
     "nodes": {},
