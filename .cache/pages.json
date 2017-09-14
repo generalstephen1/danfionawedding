@@ -1,5 +1,12 @@
 [
     {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-pages-contact-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -7,18 +14,18 @@
         "path": "/Contact/"
     },
     {
-        "componentChunkName": "component---src-pages-media-js",
-        "layout": "index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "media.json",
-        "path": "/Media/"
-    },
-    {
         "componentChunkName": "component---src-pages-venue-js",
         "layout": "index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "venue.json",
         "path": "/Venue/"
+    },
+    {
+        "componentChunkName": "component---src-pages-media-js",
+        "layout": "index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "media.json",
+        "path": "/Media/"
     },
     {
         "componentChunkName": "component---src-pages-index-js",
