@@ -20,6 +20,16 @@
             text-decoration: none;
             display: inline-block;
         }
+
+        @media screen and (max-width: 650px) {
+            width: 100%;
+            padding: 0;
+            margin: 0;
+            h1 {
+                width: 100%;
+                text-align: center;
+            }
+        }
     }
 
     &__nav {
@@ -30,6 +40,19 @@
             list-style: none;
             float: right;
             padding: 20px;
+        }
+
+        @media screen and (max-width: 650px) {
+            display: block;
+            width: 100%;
+            margin: 0 auto;
+
+            &-item {
+                width: 30%;
+                padding: 1%;
+                height: 3em;
+                text-align: center;
+            }
         }
     }
 }
