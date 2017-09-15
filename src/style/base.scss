@@ -1,3 +1,5 @@
+@import "_variables";
+
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
@@ -9,12 +11,14 @@ h1, h2, h3, h4 {
 
 a {
     text-decoration: none;
+    color: $link-colour;
 }
 
 .content {
     margin: 0 auto;
     max-width: 960px;
     padding: 20px;
+    overflow: hidden;
 }
 
 .counter {

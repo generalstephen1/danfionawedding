@@ -1,11 +1,30 @@
-$palette-off-white: #ECECEC;
-$palette-blue-grey: #0E1A2B;
-$palette-big-pink: #9A10A4;
-$palette-royal-purple: #844ED4;
-$palette-mid-green: #29601C;
 
 
-$title-colour: $palette-blue-grey;
-$font-colour: $palette-blue-grey;
-$header-bg: $palette-off-white;
-$nav-dividers: $palette-big-pink;
+$palette-mint-green: 	#A7CCBB;
+$palette-blue-grey: 	#ABAFB0;
+$palette-dark-grey: 	#1E1D1C;
+$palette-red: 	        #ED2D25;
+$palette-off-white: 	#FEFEFE;
+$palette-light-pink: 	#F2C3BD;
+$palette-light-yellow: 	#EEDE85;
+
+
+/*
+ * TEXT
+ */
+$title-colour:          $palette-dark-grey;
+$font-colour:           $palette-dark-grey;
+$link-colour:           $palette-dark-grey;
+
+
+/*
+ * BACKGROUNDS
+ */
+$header-bg:             $palette-mint-green;
+
+
+
+/*
+ * NAV
+ */
+$nav-dividers:          $palette-light-pink;
