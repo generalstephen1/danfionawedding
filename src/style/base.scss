@@ -15,10 +15,13 @@ a {
 }
 
 .content {
+    overflow: hidden;
+}
+
+.centered-content {
+    padding: 20px;
     margin: 0 auto;
     max-width: 960px;
-    padding: 20px;
-    overflow: hidden;
 }
 
 .counter {

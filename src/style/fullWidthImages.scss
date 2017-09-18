@@ -1,0 +1,30 @@
+.full-width-image {
+    width: 100%;
+    height: 20em;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.venue-image {
+    background-image: url('../img/venue.jpg');
+}
+.couple-image {
+    background-image: url('../img/couple.jpg');
+}
+
+
+/*
+    IMAGE FILTERS
+*/
+
+.img-filter {
+    mouse-events: none;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+
+    &__dots {
+        background-color: blue;
+    }
+}
