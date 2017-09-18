@@ -23,7 +23,7 @@
   "main": "n/a",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build && rm -rf docs/ && mv public/ docs",
+    "build": "gatsby build && rm -rf docs/ && mv public/ docs && cp CNAME docs/CNAME",
     "serve": "gatsby serve"
   }
 }
