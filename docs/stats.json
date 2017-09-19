@@ -1,12 +1,12 @@
 {
   "assetsByChunkName": {
     "component---src-pages-venue-js": [
-      "component---src-pages-venue-js-f29abb0d6d92988f86c5.js",
-      "component---src-pages-venue-js-f29abb0d6d92988f86c5.js.map"
+      "component---src-pages-venue-js-10654325d466282ef7e6.js",
+      "component---src-pages-venue-js-10654325d466282ef7e6.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-f51cb7a8ad7b95c24074.js",
-      "component---src-pages-index-js-f51cb7a8ad7b95c24074.js.map"
+      "component---src-pages-index-js-a5b3ba6330768aedaf80.js",
+      "component---src-pages-index-js-a5b3ba6330768aedaf80.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,8 +17,8 @@
       "component---src-pages-contact-js-15e7a8790de946c65f99.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-02d7324a698e7f0ba568.js",
-      "component---src-layouts-index-js-02d7324a698e7f0ba568.js.map"
+      "component---src-layouts-index-js-c76fb04d2300d651d000.js",
+      "component---src-layouts-index-js-c76fb04d2300d651d000.js.map"
     ],
     "path---venue": [
       "path---venue-a0e39f21c11f6a62c5ab.js",
@@ -33,16 +33,16 @@
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "commons": [
-      "commons-832f0c6ee87f3919aa25.js",
-      "commons-832f0c6ee87f3919aa25.js.map"
+      "commons-187bbb661617174afb22.js",
+      "commons-187bbb661617174afb22.js.map"
     ],
     "path---contact": [
       "path---contact-a0e39f21c11f6a62c5ab.js",
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-a8808518e02a16979948.js",
-      "app-a8808518e02a16979948.js.map"
+      "app-b2b643d9e37865593fc6.js",
+      "app-b2b643d9e37865593fc6.js.map"
     ],
     "path---media": [
       "path---media-a0e39f21c11f6a62c5ab.js",
