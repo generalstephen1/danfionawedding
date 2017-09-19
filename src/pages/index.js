@@ -6,7 +6,6 @@ const Home = () => {
 
     const customImageStyles = {
         backgroundPositionY: '40%',
-        height: '40em',
     };
 
     return (

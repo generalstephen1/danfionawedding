@@ -2,9 +2,9 @@
 
 .header {
     background: $header-bg;
+    border-bottom: 3px solid $header-border;
     margin-bottom: 1.45rem;
     padding: 0;
-    margin: 0;
     position: fixed;
     position: sticky;
     overflow: hidden;
@@ -19,6 +19,8 @@
             color: $title-colour;
             text-decoration: none;
             display: inline-block;
+            font-size: 40pt;
+            margin: 0;
         }
 
         @media screen and (max-width: 650px) {
@@ -28,13 +30,13 @@
             h1 {
                 width: 100%;
                 text-align: center;
+                margin: 15px 0;
             }
         }
     }
-
     &__nav {
         float: right;
-        margin: 10px 0;
+        margin: 0;
 
         &-item {
             list-style: none;

@@ -1,3 +1,5 @@
+@import "_variables";
+
 .full-width-image {
     width: 100%;
     height: 20em;
@@ -19,12 +21,14 @@
 */
 
 .img-filter {
-    mouse-events: none;
     width: 100%;
     height: 100%;
-    opacity: 0.5;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
 
     &__dots {
-        background-color: blue;
+        background-color: $palette-mint-green;
     }
 }

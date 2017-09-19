@@ -3,15 +3,22 @@ import PropTypes from "prop-types"
 
 import '../style/fullWidthImages.scss'
 
+const propTypes = {
+    imageClass: PropTypes.string.isRequired,
+    filterClass: PropTypes.string,
+    customStyles: PropTypes.string,
+}
+
 const FullWidthImage = (props) => {
-    const classes = `full-width-image ${props.imageClass}`
+    const imgClasses = `full-width-image ${props.imageClass}`
     const filterClasses = `img-filter ${props.filterClass}`
     return (
-        <div>
-            <div className={classes} style={props.customStyles}></div>
+        <div style={{position: 'relative'}}>
             <div className={filterClasses}></div>
+            <div className={imgClasses} style={props.customStyles}></div>
         </div>
     )
 }
 
+FullWidthImage.propTypes = propTypes
 export default FullWidthImage;
