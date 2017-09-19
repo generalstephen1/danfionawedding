@@ -9,6 +9,7 @@
     position: sticky;
     overflow: hidden;
     top: 0;
+    z-index: 100;
 
     &__title-container {
         margin: 0 auto;
@@ -19,8 +20,7 @@
             color: $title-colour;
             text-decoration: none;
             display: inline-block;
-            font-size: 40pt;
-            margin: 0;
+            margin: 10px 0;
         }
 
         @media screen and (max-width: $tablet-breakpoint) {
@@ -50,7 +50,7 @@
             margin: 0 auto;
 
             &-item {
-                width: 30%;
+                width: 22%;
                 padding: 1%;
                 height: 3em;
                 text-align: center;

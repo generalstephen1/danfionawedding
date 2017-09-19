@@ -37,7 +37,7 @@ class Html extends Component {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Dan and Fiona</title>
-          <link href="https://fonts.googleapis.com/css?family=Open+Sans|Tangerine" rel="stylesheet">
+          <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
           {css}
         </head>
 

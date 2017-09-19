@@ -2,11 +2,12 @@
 
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: $page-bg;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Tangerine', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 a {
     text-decoration: none;
