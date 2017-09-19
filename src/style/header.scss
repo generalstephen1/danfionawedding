@@ -23,7 +23,7 @@
             margin: 0;
         }
 
-        @media screen and (max-width: 650px) {
+        @media screen and (max-width: $tablet-breakpoint) {
             width: 100%;
             padding: 0;
             margin: 0;
@@ -44,7 +44,7 @@
             padding: 20px;
         }
 
-        @media screen and (max-width: 650px) {
+        @media screen and (max-width: $tablet-breakpoint) {
             display: block;
             width: 100%;
             margin: 0 auto;
