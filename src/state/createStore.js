@@ -39,7 +39,7 @@ const merge = (state, mergeObj) => {
   return Object.assign({}, state, mergeObj);
 };
 
-
+const window = window || {};
 const createStore = () => reduxCreateStore(
   reducer, initialState,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
