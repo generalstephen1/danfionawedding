@@ -1,15 +1,47 @@
 import { createStore as reduxCreateStore } from "redux"
+import {
+  SET_WEDDING_DATE,
+  UPDATE_TIMER,
+  INCREMENT,
+} from './const';
 
-const reducer = (state, action) => {
-  if (action.type === `INCREMENT`) {
-    return Object.assign({}, state, {
-      count: state.count + 1,
-    })
-  }
-  return state
+const initialState = {
+  count: 0,
+  timeUntilWedding: 0,
+  weddingDate: 0,
 }
 
-const initialState = { count: 0 }
 
-const createStore = () => reduxCreateStore(reducer, initialState)
+const reducer = (state, action) => {
+  if (!state) return initialState;
+  switch (action.type){
+    case INCREMENT:
+      return merge(state, {
+        count: state.count + 1,
+      })
+
+    case UPDATE_TIMER:
+      return merge(state, {
+        timeUntilWedding: state.weddingDate - new Date().getTime(),
+      })
+
+    case SET_WEDDING_DATE:
+      return merge(state, {
+        weddingDate: new Date('2018', '09', '17'),
+      })
+
+    default:
+      return state;
+  }
+}
+
+const merge = (state, mergeObj) => {
+  return Object.assign({}, state, mergeObj);
+};
+
+
+const createStore = () => reduxCreateStore(
+  reducer, initialState,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+)
 export default createStore

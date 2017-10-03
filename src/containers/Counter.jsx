@@ -1,6 +1,8 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { connect } from "react-redux"
+import React from "react";
+import { bindActionCreators } from 'redux';
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import * as actions from '../state/actions';
 
 const Counter = ({ count, increment }) => (
   <div className="counter">
@@ -18,10 +20,13 @@ const mapStateToProps = ({ count }) => {
   return { count }
 }
 
-const mapDispatchToProps = dispatch => {
-  return { increment: () => dispatch({ type: `INCREMENT` }) }
+const mapDispatchToProps = (dispatch) => {
+  const containerActions = {
+    increment: actions.incrementAction
+  }
+  const actionMap = bindActionCreators(containerActions, dispatch);
+  return actionMap;
 }
 
 const ConnectedCounter = connect(mapStateToProps, mapDispatchToProps)(Counter)
 export default ConnectedCounter;
-

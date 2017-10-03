@@ -1,0 +1,3 @@
+export const SET_WEDDING_DATE = 'SET_WEDDING_DATE';
+export const UPDATE_TIMER = 'UPDATE_TIMER';
+export const INCREMENT = 'INCREMENT';

@@ -6,7 +6,7 @@ import '../style/fullWidthImages.scss'
 const propTypes = {
     imageClass: PropTypes.string.isRequired,
     filterClass: PropTypes.string,
-    customStyles: PropTypes.string,
+    customStyles: PropTypes.object,
 }
 
 const FullWidthImage = (props) => {
