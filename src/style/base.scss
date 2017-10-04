@@ -2,17 +2,26 @@
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
     background-color: $page-bg;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Tangerine', cursive;
 }
+
+h1 { font-size: 30pt; }
+h2 { font-size: 25pt; }
+h3 { font-size: 20pt; }
+h4 { font-size: 15pt; }
+
 a {
     text-decoration: none;
     color: $link-colour;
 }
+
 
 .content {
     overflow: hidden;

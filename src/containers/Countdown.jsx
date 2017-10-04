@@ -41,20 +41,22 @@ class Countdown extends React.Component {
 
   humanReadableDates = (timestamp) => {
     return {
-      days:  Math.floor(timestamp / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((timestamp % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-      mins:  Math.floor((timestamp % (1000 * 60 * 60)) / (1000 * 60)),
+      days:     Math.floor(timestamp / (1000 * 60 * 60 * 24)),
+      hours:    Math.floor((timestamp % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+      mins:     Math.floor((timestamp % (1000 * 60 * 60)) / (1000 * 60)),
+      secs:     Math.floor((timestamp % (1000 * 60)) / (1000)),
     }
   }
 
   render = () => {
-    const {days, hours, mins} = this.humanReadableDates(this.props.timeUntilWedding);
+    const {days, hours, mins, secs} = this.humanReadableDates(this.props.timeUntilWedding);
     return (
       <div className="countdown">
         <CountdownDisplay
           days={days}
           hours={hours}
-          minutes={mins} />
+          minutes={mins}
+          seconds={secs} />
       </div>
     );
   }

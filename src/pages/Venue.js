@@ -7,7 +7,7 @@ const VenueContainer = () => {
         <div>
             <FullWidthImage imageClass="venue-image"/>
             <div className="centered-content">
-                <h2>Venue :</h2>
+                <h2>The Venue :</h2>
                 <br/>
                 <p>
                     <a href="https://www.rathsallagh.com/" target="_blank">

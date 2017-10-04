@@ -8,7 +8,7 @@ const CountdownDisplay = (props) => {
 
         <div>
             <h2 className="countdown__title">17th September 2018</h2>
-            <h2 className="countdown__text">{props.days} days, {props.hours} hours, and {props.minutes} minutes to go!</h2>
+            <p className="countdown__text">{props.days} days, {props.hours}hrs {props.minutes}min {props.seconds}s to go!</p>
         </div>
     )
 }

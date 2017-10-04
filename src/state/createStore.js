@@ -27,7 +27,7 @@ const reducer = (state, action) => {
 
     case SET_WEDDING_DATE:
       return merge(state, {
-        weddingDate: new Date('2018', '09', '17'),
+        weddingDate: new Date('2018', '08', '17', '14'),
       })
 
     default:
