@@ -7,6 +7,7 @@ const AccomodationContainer = () => {
         <div>
             <FullWidthImage
                 imageClass="venue-dining-image"/>
+
             <div className="centered-content">
                 <h2>Accomodation</h2>
                 <p>Converted from Queen Anne stables in 1798, Rathsallagh House is a large 4-star Grade A
@@ -39,6 +40,7 @@ const AccomodationContainer = () => {
 
             <FullWidthImage
                 imageClass="hills-image"/>
+
             <div className="centered-content">
                 <h2>Things to do nearby</h2>
                 <p>There are so many beautiful places to visit in Ireland. Here are some of our top

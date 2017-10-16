@@ -16,7 +16,7 @@ const VenueContainer = () => {
                 </p>
                 <p>Rathsallagh House is approximately 50-60km (50mins) from Dublin.</p>
             </div>
-            <GoogleMap location="weddingVenue"/>
+            <GoogleMap mapLocation="weddingVenue"/>
             <div className="centered-content">
                 <h2>How to get there</h2>
 
