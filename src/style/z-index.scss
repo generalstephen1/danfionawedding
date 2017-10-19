@@ -1,0 +1,12 @@
+.header {
+    z-index: 100;
+}
+
+.content {
+    .full-width-image {
+        z-index: 1;
+    }
+    .centered-content {
+        z-index: 2;
+    }
+}

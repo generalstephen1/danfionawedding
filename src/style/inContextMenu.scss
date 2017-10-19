@@ -1,0 +1,42 @@
+@import "_variables";
+
+ul.in-content-menu {
+    margin: 0 auto;
+
+    &__menu {
+        overflow: hidden;
+        list-style: none;
+        width: 100%;
+        transition: 0.2s all;
+        max-width: 960px;
+        padding: 10px 20px;
+    }
+}
+.in-content-menu {
+    &__menu {
+        &__item {
+            display: inline-block;
+            list-style: none;
+            padding: 10px 0;
+            margin: 0 auto;
+            text-align: center;
+            border: 1px solid $in-context-nav-highlight;
+
+            &--active {
+                background-color: $in-context-nav-highlight;
+            }
+        }
+    }
+    &__content {
+        position: relative;
+
+        &__item {
+            display: none;
+
+            &--active {
+                display: block;
+            }
+        }
+
+    }
+}

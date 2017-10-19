@@ -27,8 +27,12 @@ $link-colour:           $palette-dark-grey;
  * BACKGROUNDS
  */
 $header-bg:             $palette-off-white;
-$header-border:         $palette-dark-grey;
-$page-bg:               $palette-mint-green;
+$home-page-bg:          $palette-mint-green;
+
+$accomodation-page-bg:  $palette-mint-green;
+$contact-page-bg:       $palette-mint-green;
+$media-page-bg:         $palette-mint-green;
+$venue-page-bg:         $palette-mint-green;
 
 
 
@@ -36,3 +40,4 @@ $page-bg:               $palette-mint-green;
  * NAV
  */
 $nav-dividers:          $palette-light-pink;
+$in-context-nav-highlight: $palette-light-pink;

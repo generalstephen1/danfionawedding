@@ -10,11 +10,10 @@ const propTypes = {
 }
 
 const FullWidthImage = (props) => {
-    const imgClasses = `full-width-image ${props.imageClass}`
+    const imgClasses = `full-width-image__image ${props.imageClass}`
     const filterClasses = `img-filter ${props.filterClass}`
     return (
-        <div style={{position: 'relative'}}>
-            <div className={filterClasses}></div>
+        <div className='full-width-image'>
             <div className={imgClasses} style={props.customStyles}></div>
         </div>
     )

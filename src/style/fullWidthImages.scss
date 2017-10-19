@@ -1,18 +1,18 @@
 @import "_variables";
 
 .full-width-image {
-    width: 100%;
-    height: 30em;
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: -30px 0;
-    z-index: -1;
-    position: relative;
+    &__image {
+        width: 100%;
+        height: 30em;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: -30px 0;
+        position: relative;
 
-    &--primary-focus {
-        margin: 0;
-        z-index: 0;
+        &--primary-focus {
+            margin: 0;
+        }
     }
 }
 
@@ -46,11 +46,4 @@
     position: absolute;
     top: 0;
     left: 0;
-
-    &__dots {
-    }
-    &__green-tint {
-        // opacity: 0.6;
-        // background-color: $palette-mint-green;
-    }
 }

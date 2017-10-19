@@ -5,7 +5,7 @@ import FullWidthImage from '../components/FullWidthImage'
 const ContactContainer = () => {
 
     return (
-        <div>
+        <div className='page page__contact'>
             <FullWidthImage
                 imageClass="couple-image"
                 filterClass="img-filter__green-tint"/>

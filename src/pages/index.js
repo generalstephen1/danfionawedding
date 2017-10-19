@@ -7,7 +7,7 @@ import GoogleMap from '../components/GoogleMap';
 const Home = () => {
 
     return (
-        <div>
+        <div className='page page__home'>
             <FullWidthImage
                 imageClass="flowers-image"
                 filterClass="img-filter__none"

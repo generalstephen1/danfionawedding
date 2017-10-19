@@ -4,7 +4,7 @@ import GoogleMap from '../components/GoogleMap'
 
 const VenueContainer = () => {
     return (
-        <div>
+        <div className='page page__venue'>
             <FullWidthImage imageClass="venue-image"/>
             <div className="centered-content">
                 <h2>The Venue :</h2>

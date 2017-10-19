@@ -2,14 +2,12 @@
 
 .header {
     background: $header-bg;
-    border-bottom: 3px solid $header-border;
-    // margin-bottom: 1.45rem;
+    box-shadow: 0 0 18px -2px black;
     padding: 0;
     position: fixed;
     position: sticky;
     overflow: hidden;
     top: 0;
-    z-index: 100;
 
     &__title-container {
         margin: 0 auto;
@@ -20,7 +18,7 @@
             color: $title-colour;
             text-decoration: none;
             display: inline-block;
-            margin: 10px 0;
+            margin: 0;
         }
 
         @media screen and (max-width: $tablet-breakpoint) {
@@ -42,15 +40,47 @@
             list-style: none;
             float: right;
             padding: 20px;
+            transition: 0.2s all;
+            border-bottom: solid white;
+
+
+            $border-width: 5px;
+            $darken-perc: 10%;
+
+            &__media{
+                &:hover,
+                &--active {
+                    border-bottom: solid darken($media-page-bg, $darken-perc);
+                }
+            }
+            &__accomodation{
+                &:hover,
+                &--active {
+                    border-bottom: solid darken($accomodation-page-bg, $darken-perc);
+                }
+            }
+            &__venue{
+                &:hover,
+                &--active {
+                    border-bottom: solid darken($venue-page-bg, $darken-perc);
+                }
+            }
+            &__contact{
+                &:hover,
+                &--active {
+                    border-bottom: solid darken($contact-page-bg, $darken-perc);
+                }
+            }
         }
 
         @media screen and (max-width: $tablet-breakpoint) {
             display: block;
             width: 100%;
             margin: 0 auto;
+            padding: 0;
 
             &-item {
-                width: 22.5%;
+                width: 25%;
                 padding: 1%;
                 height: 3em;
                 text-align: center;

@@ -5,10 +5,11 @@ import Header from "../components/Header"
 import { connect } from "react-redux"
 
 import '../style/base.scss'
+import '../style/z-index.scss'
 
-const TemplateWrapper = ({ children }) => (
+const TemplateWrapper = ({ children, activePage }) => (
   <div>
-    <Header />
+    <Header activePage={activePage} />
     <div className='content'>
       {children()}
     </div>
@@ -21,7 +22,7 @@ TemplateWrapper.propTypes = {
 
 const mapStateToProps = () => {
   return {
-
+      activePage: 'home'
   }
 }
 
