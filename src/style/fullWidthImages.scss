@@ -34,6 +34,23 @@
 .hills-image {
     background-image: url('../img/hills.jpg');
 }
+.family-image-1 {
+    background-image: url('../img/family-image-1.jpg');
+    height: 40em;
+    @media screen and (max-width: $tablet-breakpoint) {
+        height: 20em;
+    }
+}
+.family-image-2 {
+    background-image: url('../img/family-image-2.jpg');
+    // height: 50em;
+    @media screen and (min-width: $tablet-breakpoint) {
+        height: 50em;
+    }
+}
+.family-image-3 {
+    background-image: url('../img/family-image-3.jpg');
+}
 
 
 /*

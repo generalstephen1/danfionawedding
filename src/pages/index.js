@@ -9,9 +9,9 @@ const Home = () => {
     return (
         <div className='page page__home'>
             <FullWidthImage
-                imageClass="flowers-image"
+                imageClass="family-image-2"
                 filterClass="img-filter__none"
-                customStyles={{'backgroundPositionY': '80%'}}/>
+                customStyles={{'backgroundPositionY': '20%'}}/>
             <div className="centered-content">
                 <ConnectedCountdown />
 

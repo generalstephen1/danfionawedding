@@ -7,8 +7,9 @@ const ContactContainer = () => {
     return (
         <div className='page page__contact'>
             <FullWidthImage
-                imageClass="couple-image"
-                filterClass="img-filter__green-tint"/>
+                imageClass="family-image-1"
+                filterClass="img-filter__none"
+                customStyles={{'backgroundPositionY': '20%'}}/>
 
             <div className="centered-content">
                 <h2>Contact & RSVP :</h2>
