@@ -44,3 +44,4 @@ dist
 
 .cache
 src/secret_keys.json
+public/

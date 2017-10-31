@@ -4,15 +4,24 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf") format("ttf");
+}
+@font-face {
+    font-family: "Tangerine";
+    src: url("/fonts/Tangerine-Bold.ttf") format("ttf");
+}
+
 body {
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     background-color: $home-page-bg;
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Great Vibes', Arial, Helvetica, sans-serif;
+    font-family: 'Tangerine', Arial, Helvetica, sans-serif;
 }
 
 h1 { font-size: 30pt; }

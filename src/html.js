@@ -42,7 +42,6 @@ class Html extends Component {
           <link rel="icon" href="img/favicon-96x96.png" type="image/x-icon" />
 
           <title>Dan and Fiona</title>
-          <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans" rel="stylesheet">
           {css}
         </head>
 
