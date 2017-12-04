@@ -2,6 +2,7 @@ import React from "react";
 import FullWidthImage from '../components/FullWidthImage';
 import ConnectedCountdown from '../containers/Countdown';
 import GoogleMap from '../components/GoogleMap';
+import GiphyEmbed from '../components/GiphyEmbed';
 
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
                     <p>Please try and get there 15mins prior to the ceremony.</p>
                     <p>Afterwards we will continue to Rathsallagh House to CELEBRATE!!!</p>
                 </div>
+                <GiphyEmbed />
             </div>
         </div>
     )
