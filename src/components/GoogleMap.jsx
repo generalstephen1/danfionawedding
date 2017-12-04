@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 
-import '../style/googleMap.scss'
+import '../style/embeds.scss'
 
 const iframeBits = {
     'className':"google-map__iframe",

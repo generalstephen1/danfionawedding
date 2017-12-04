@@ -19,3 +19,17 @@
         height: 100% !important;
     }
 }
+
+.giphy-embed-wrapper{
+    position:relative;
+    width:50%;
+    height:0;
+    padding-bottom:33%;
+    margin-left: 25%;
+
+    @media screen and (max-width: $tablet-breakpoint) {
+        padding-bottom: 67%;
+        width:100%;
+        margin-left: 0%;
+    }
+}

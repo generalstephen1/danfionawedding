@@ -1,5 +1,6 @@
 import React from "react"
 import FullWidthImage from '../components/FullWidthImage'
+import GiphyEmbed from '../components/GiphyEmbed'
 
 
 const ContactContainer = () => {
@@ -23,6 +24,7 @@ const ContactContainer = () => {
                     </ul>
                 <p>Thanking you in advance!</p>
                 <h4>Dan & Fiona</h4>
+                <GiphyEmbed />
             </div>
         </div>
     )

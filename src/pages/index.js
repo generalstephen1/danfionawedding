@@ -27,19 +27,6 @@ const Home = () => {
                     <p>Afterwards we will continue to Rathsallagh House to CELEBRATE!!!</p>
                 </div>
             </div>
-
-            <FullWidthImage
-                imageClass="church-image"
-                filterClass="img-filter__none"/>
-            <div className="centered-content">
-                <div className="centered-text">
-                    <h2>Directions from the Church to the Venue</h2>
-                </div>
-
-            </div>
-
-            <GoogleMap mapLocation="weddingCeremonyToReception"/>
-
         </div>
     )
 }
