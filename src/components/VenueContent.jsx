@@ -8,7 +8,8 @@ export const Directions = (props) => {
         <div>
             <FullWidthImage
                 imageClass="church-image"
-                filterClass="img-filter__none"/>
+                filterClass="img-filter__none"
+                customStyles={{'backgroundPositionY': '-190px'}}/>
             <div className="centered-content">
                 <div className="centered-text">
                     <h2>Directions from the Church to the Venue</h2>
@@ -23,7 +24,9 @@ export const Directions = (props) => {
 export const Venue = (props) => {
     return (
         <div>
-            <FullWidthImage imageClass="venue-image"/>
+            <FullWidthImage
+                imageClass="venue-image"
+                customStyles={{'backgroundPositionY': '-200px'}}/>
             <div className="centered-content">
                 <h2>The Venue :</h2>
                 <br/>

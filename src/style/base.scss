@@ -24,6 +24,9 @@ a {
     text-decoration: none;
     color: $link-colour;
 }
+a:hover {
+    color: $link-hover-colour;
+}
 
 
 .content {
@@ -43,6 +46,29 @@ a {
 
 .centered-text {
     text-align: center;
+}
+
+.centered-image {
+    text-align: center;
+    width: 50%;
+    @media screen and (max-width: $tablet-breakpoint) {
+        width: 70%;
+    }
+}
+
+.centered-list {
+    width: 50%;
+    margin-left: 25%;
+    text-align: left;
+
+    @media screen and (max-width: $tablet-breakpoint) {
+        width: 70%;
+        margin-left: 15%;
+    }
+}
+
+.highlight-text {
+    color: $text-highlight-color;
 }
 
 .counter {

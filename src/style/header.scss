@@ -10,6 +10,13 @@
     overflow: hidden;
     top: 0;
 
+    a {
+        color:$font-colour;
+        &:hover {
+            color:$font-colour;
+        }
+    }
+
     &__title-container {
         margin: 0 auto;
         max-width: 960px;
