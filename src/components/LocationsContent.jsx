@@ -27,10 +27,7 @@ export const Accomodation = (props) => {
                 Gate Lodge €375 - Sleeps 6 in 3 rooms, One en suite ( €145 ) , two share a bathroom
                 ( €115 )</p>
 
-                <p>All hotel room bookings for wedding guests can only be made directly by using a wedding
-                code which we will shortly be receiving from Rathsallagh House. If you wish to stay the
-                night of the wedding in the hotel, please contact Rathsallgh House and give the code as
-                provided.</p>
+                <p>All hotel room bookings for wedding guests can only be made directly by using a wedding code which we will shortly be receiving from Rathsallagh House. If you wish to stay the night of the wedding in the hotel, please contact Fiona or Dan for reservation code availability.</p>
 
                 <p>This will be at a first come, first served basis.</p>
 
