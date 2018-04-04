@@ -23,7 +23,7 @@ const Home = () => {
                 <br/>
                 <div className="centered-text">
                     <h2>Itinerary</h2>
-                    <p>Wedding Ceremony will take place at 2pm.</p>
+                    <p>Wedding Ceremony will take place at 2:30pm.</p>
                     <p>Please try and get there 15mins prior to the ceremony.</p>
                     <p>Afterwards we will continue to Rathsallagh House to CELEBRATE!!!</p>
                 </div>
